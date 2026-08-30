@@ -7,7 +7,7 @@ const TRANSLATIONS = {
 
     "hero.title": "Sea-View Pool Apartment",
     "hero.location": "Théoule-sur-Mer &middot; French Riviera",
-    "hero.tagline": "Ground-floor apartment 100m from the beach, with a shared sea-view pool. Book direct with Julie &mdash; no Airbnb fees.",
+    "hero.tagline": "Ground-floor apartment 100m from the beach, with a shared sea-view pool. Book direct with Julie.",
     "hero.cta_photos": "View Photos",
     "hero.cta_call": "Call Julie",
 
@@ -53,7 +53,7 @@ const TRANSLATIONS = {
     "rules.maxguests": "4 guests maximum",
 
     "contact.heading": "Book directly with Julie",
-    "contact.body": "Skip the platform and the fees &mdash; contact Julie directly to check availability and book your stay.",
+    "contact.body": "Contact Julie directly to check availability and book your stay.",
     "contact.call": "Call or WhatsApp",
 
     "footer.note": "Direct booking only &mdash; this is not an Airbnb listing.",
@@ -69,7 +69,7 @@ const TRANSLATIONS = {
 
     "hero.title": "Appartement avec Piscine Vue Mer",
     "hero.location": "Théoule-sur-Mer &middot; Côte d'Azur",
-    "hero.tagline": "Appartement en rez-de-chaussée à 100m de la plage, avec piscine commune vue mer. Réservez en direct avec Julie &mdash; sans frais Airbnb.",
+    "hero.tagline": "Appartement en rez-de-chaussée à 100m de la plage, avec piscine commune vue mer. Réservez en direct avec Julie.",
     "hero.cta_photos": "Voir les photos",
     "hero.cta_call": "Appeler Julie",
 
@@ -115,7 +115,7 @@ const TRANSLATIONS = {
     "rules.maxguests": "4 voyageurs maximum",
 
     "contact.heading": "Réservez directement avec Julie",
-    "contact.body": "Évitez la plateforme et ses frais &mdash; contactez Julie directement pour vérifier les disponibilités et réserver votre séjour.",
+    "contact.body": "Contactez Julie directement pour vérifier les disponibilités et réserver votre séjour.",
     "contact.call": "Appeler ou WhatsApp",
 
     "footer.note": "Réservation en direct uniquement &mdash; ceci n'est pas une annonce Airbnb.",
