@@ -1,0 +1,179 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-muted: #6b6b6b;
+  --color-primary: #2b6e50;
+  --color-primary-dark: #1f5039;
+  --color-border: #e5e5e5;
+  --color-surface: #f7f7f5;
+  --max-width: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-text);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: var(--color-primary);
+}
+
+/* Hero */
+.hero {
+  background: var(--color-surface);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.25rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero p {
+  color: var(--color-muted);
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+/* Page header (non-home pages) */
+.page-header {
+  padding: 2.5rem 0 1rem;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+/* Featured / property grid */
+.featured {
+  padding: 3rem 1.5rem;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.property-card {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: var(--color-surface);
+}
+
+.property-card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.property-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.property-price {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.property-meta {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+/* Prose pages */
+.prose {
+  padding: 1rem 1.5rem 3rem;
+  max-width: 700px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
