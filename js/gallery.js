@@ -1,5 +1,6 @@
 const GALLERY_PHOTOS = [
   "photo-16.jpg",
+  "photo-19.jpg",
   "photo-01.avif",
   "photo-06.avif",
   "photo-07.avif",
