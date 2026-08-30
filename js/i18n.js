@@ -38,15 +38,6 @@ const TRANSLATIONS = {
     "location.heading": "Location",
     "location.body": "<p>Théoule-sur-Mer, Provence-Alpes-C&ocirc;te d'Azur, France &mdash; right by La Figueirette beach and marina.</p>",
 
-    "reviews.heading": "What guests say",
-    "reviews.rating": "4.75 out of 5 &middot; loved by recent guests",
-    "reviews.q1": "&ldquo;Very nice apartment and a professional and available host.&rdquo;",
-    "reviews.a1": "&mdash; Nicolas",
-    "reviews.q2": "&ldquo;Good value for money, close to the beach, pool, private garage, beautiful terrace, new kitchen equipment, peaceful environment. I recommend it, and we will come back!&rdquo;",
-    "reviews.a2": "&mdash; Thierry",
-    "reviews.q3": "&ldquo;Great service, to be repeated.&rdquo;",
-    "reviews.a3": "&mdash; Didier",
-
     "rules.heading": "Good to know",
     "rules.checkin": "Check-in: 4:00 PM &ndash; 10:00 PM",
     "rules.checkout": "Checkout before 11:00 AM",
@@ -99,15 +90,6 @@ const TRANSLATIONS = {
 
     "location.heading": "Emplacement",
     "location.body": "<p>Théoule-sur-Mer, Provence-Alpes-Côte d'Azur, France &mdash; juste à côté de la plage et du port de la Figueirette.</p>",
-
-    "reviews.heading": "Avis des voyageurs",
-    "reviews.rating": "4,75 sur 5 &middot; apprécié par les derniers voyageurs",
-    "reviews.q1": "&laquo;&nbsp;Très bel appartement et hôte professionnel et disponible.&nbsp;&raquo;",
-    "reviews.a1": "&mdash; Nicolas",
-    "reviews.q2": "&laquo;&nbsp;Bon rapport qualité-prix, proche de la plage, piscine, garage privé, belle terrasse, cuisine neuve, environnement paisible. Je recommande, et nous reviendrons&nbsp;!&nbsp;&raquo;",
-    "reviews.a2": "&mdash; Thierry",
-    "reviews.q3": "&laquo;&nbsp;Excellent service, à refaire.&nbsp;&raquo;",
-    "reviews.a3": "&mdash; Didier",
 
     "rules.heading": "Bon à savoir",
     "rules.checkin": "Arrivée&nbsp;: 16h00 &ndash; 22h00",

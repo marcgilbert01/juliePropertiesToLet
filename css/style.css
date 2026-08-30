@@ -261,42 +261,6 @@ nav {
   border: 1px solid var(--color-border);
 }
 
-/* Reviews */
-.reviews-section {
-  padding: 3rem 1.5rem;
-  max-width: 900px;
-}
-
-.reviews-rating {
-  font-weight: 600;
-  color: var(--color-muted);
-}
-
-.review-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.review-grid blockquote {
-  margin: 0;
-  padding: 1.25rem;
-  background: var(--color-surface);
-  border-radius: 8px;
-  border-left: 3px solid var(--color-primary);
-}
-
-.review-grid p {
-  margin: 0 0 0.5rem;
-}
-
-.review-grid cite {
-  font-style: normal;
-  color: var(--color-muted);
-  font-size: 0.9rem;
-}
-
 /* Rules */
 .rules-section {
   padding: 0 1.5rem 3rem;
