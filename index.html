@@ -3,46 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Julie Properties to Let</title>
+  <title data-i18n="meta.title">Sea-View Pool Apartment | Théoule-sur-Mer, French Riviera</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">Julie Properties</a>
+      <a href="index.html" class="logo">La Figueirette</a>
       <nav>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="properties.html">Properties</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Photos</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="lang-toggle" data-lang-toggle type="button" aria-label="Switch language">FR</button>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Find your next home to let</h1>
-      <p>Quality rental properties, personally managed.</p>
-      <a href="properties.html" class="btn">View Properties</a>
+  <section class="hero" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.45)), url('images/photos/photo-16.jpg');">
+    <div class="container hero-inner">
+      <h1 data-i18n="hero.title">Sea-View Pool Apartment</h1>
+      <p class="hero-location" data-i18n="hero.location">Théoule-sur-Mer &middot; French Riviera</p>
+      <p class="hero-tagline" data-i18n="hero.tagline">Ground-floor apartment 100m from the beach, with a shared sea-view pool. Book direct with Julie &mdash; no Airbnb fees.</p>
+      <div class="hero-ctas">
+        <a href="gallery.html" class="btn" data-i18n="hero.cta_photos">View Photos</a>
+        <a href="tel:+32471991254" class="btn btn-outline" data-i18n="hero.cta_call">Call Julie</a>
+      </div>
     </div>
   </section>
 
-  <section class="featured container">
-    <h2>Featured Properties</h2>
-    <div class="property-grid" id="featured-grid">
-      <!-- Property cards are rendered here by js/main.js -->
+  <section class="facts container">
+    <div class="fact"><span class="fact-icon">👥</span><span data-i18n="facts.guests">4 guests</span></div>
+    <div class="fact"><span class="fact-icon">🛏️</span><span data-i18n="facts.bedroom">1 bedroom</span></div>
+    <div class="fact"><span class="fact-icon">🛌</span><span data-i18n="facts.beds">2 beds</span></div>
+    <div class="fact"><span class="fact-icon">🚿</span><span data-i18n="facts.bath">1 bathroom</span></div>
+  </section>
+
+  <section class="container prose-section">
+    <h2 data-i18n="about.heading">About this apartment</h2>
+    <div data-i18n="about.body">
+      <p>Charming air-conditioned dual-aspect ground-floor apartment for up to 4 guests.</p>
     </div>
+  </section>
+
+  <section class="container photo-strip">
+    <a href="gallery.html"><img src="images/photos/photo-15.jpg" alt="Private terrace"></a>
+    <a href="gallery.html"><img src="images/photos/photo-11.avif" alt="Beach cove nearby"></a>
+    <a href="gallery.html"><img src="images/photos/photo-02.avif" alt="Marina aerial view"></a>
+  </section>
+
+  <section class="container amenities-section">
+    <h2 data-i18n="amenities.heading">What this place offers</h2>
+    <ul class="amenities-grid">
+      <li data-i18n="amenities.beach">Beach access &amp; waterfront location</li>
+      <li data-i18n="amenities.kitchen">Fully-equipped kitchen (fridge, freezer, dishwasher)</li>
+      <li data-i18n="amenities.garage">Free private garage &mdash; 1 space</li>
+      <li data-i18n="amenities.pool">Private outdoor pool (seasonal, May&ndash;Sept)</li>
+      <li data-i18n="amenities.tv">TV</li>
+      <li data-i18n="amenities.washer">Washer</li>
+      <li data-i18n="amenities.ac">Central air conditioning &amp; heating</li>
+      <li data-i18n="amenities.terrace">Private patio/balcony, outdoor furniture &amp; dining area</li>
+      <li data-i18n="amenities.bathroom">Hair dryer, shampoo, shower gel, hot water</li>
+      <li data-i18n="amenities.bedroom">Bed linens provided, walk-in closet</li>
+      <li data-i18n="amenities.access">Single-level home, no stairs &middot; gated community</li>
+      <li data-i18n="amenities.checkin">Self check-in with lockbox</li>
+      <li data-i18n="amenities.safety">Smoke alarm</li>
+      <li data-i18n="amenities.longstay">Long-term stays welcome (28+ nights)</li>
+    </ul>
+  </section>
+
+  <section class="container prose-section">
+    <h2 data-i18n="location.heading">Location</h2>
+    <div data-i18n="location.body">
+      <p>Théoule-sur-Mer, Provence-Alpes-Côte d'Azur, France.</p>
+    </div>
+    <div class="map-embed">
+      <iframe
+        title="Map of Théoule-sur-Mer"
+        src="https://maps.google.com/maps?q=Th%C3%A9oule-sur-Mer%2C%20France&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="320" style="border:0;" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="container reviews-section">
+    <h2 data-i18n="reviews.heading">What guests say</h2>
+    <p class="reviews-rating">⭐ <span data-i18n="reviews.rating">4.75 out of 5 &middot; loved by recent guests</span></p>
+    <div class="review-grid">
+      <blockquote>
+        <p data-i18n="reviews.q1">&ldquo;Very nice apartment and a professional and available host.&rdquo;</p>
+        <cite data-i18n="reviews.a1">&mdash; Nicolas</cite>
+      </blockquote>
+      <blockquote>
+        <p data-i18n="reviews.q2">&ldquo;Good value for money...&rdquo;</p>
+        <cite data-i18n="reviews.a2">&mdash; Thierry</cite>
+      </blockquote>
+      <blockquote>
+        <p data-i18n="reviews.q3">&ldquo;Great service, to be repeated.&rdquo;</p>
+        <cite data-i18n="reviews.a3">&mdash; Didier</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="container rules-section">
+    <h2 data-i18n="rules.heading">Good to know</h2>
+    <ul>
+      <li data-i18n="rules.checkin">Check-in: 4:00 PM &ndash; 10:00 PM</li>
+      <li data-i18n="rules.checkout">Checkout before 11:00 AM</li>
+      <li data-i18n="rules.maxguests">4 guests maximum</li>
+      <li data-i18n="rules.children">Not suitable for young children</li>
+    </ul>
+  </section>
+
+  <section class="container contact-section" id="contact">
+    <h2 data-i18n="contact.heading">Book directly with Julie</h2>
+    <p data-i18n="contact.body">Skip the platform and the fees &mdash; contact Julie directly to check availability and book your stay.</p>
+    <a href="tel:+32471991254" class="btn btn-large">
+      <span data-i18n="contact.call">Call or WhatsApp</span>: +32 471 99 12 54
+    </a>
   </section>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Julie Properties to Let. All rights reserved.</p>
+      <p data-i18n="footer.note">Direct booking only &mdash; this is not an Airbnb listing.</p>
+      <p>&copy; <span id="year"></span> La Figueirette &middot; Théoule-sur-Mer</p>
     </div>
   </footer>
 
-  <script src="js/properties.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
