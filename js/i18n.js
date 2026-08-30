@@ -51,7 +51,6 @@ const TRANSLATIONS = {
     "rules.checkin": "Check-in: 4:00 PM &ndash; 10:00 PM",
     "rules.checkout": "Checkout before 11:00 AM",
     "rules.maxguests": "4 guests maximum",
-    "rules.children": "Not suitable for young children",
 
     "contact.heading": "Book directly with Julie",
     "contact.body": "Skip the platform and the fees &mdash; contact Julie directly to check availability and book your stay.",
@@ -114,7 +113,6 @@ const TRANSLATIONS = {
     "rules.checkin": "Arrivée&nbsp;: 16h00 &ndash; 22h00",
     "rules.checkout": "Départ avant 11h00",
     "rules.maxguests": "4 voyageurs maximum",
-    "rules.children": "Déconseillé aux jeunes enfants",
 
     "contact.heading": "Réservez directement avec Julie",
     "contact.body": "Évitez la plateforme et ses frais &mdash; contactez Julie directement pour vérifier les disponibilités et réserver votre séjour.",
